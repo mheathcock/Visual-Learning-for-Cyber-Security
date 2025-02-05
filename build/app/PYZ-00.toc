@@ -1,0 +1,2 @@
+('C:\\Users\\mheat\\Desktop\\CSC2031\\pythonProject\\build\\app\\PYZ-00.pyz',
+ [])
