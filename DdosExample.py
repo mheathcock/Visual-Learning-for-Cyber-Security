@@ -9,7 +9,7 @@ class DdosExampleGameWindow(Toplevel):
         super().__init__(*args, **kwargs)
 
         # Load basic app info like the background, size and title
-        background_img = Image.open("ddosexamplebackgroubd.png")
+        background_img = Image.open("Images/ddosexamplebackgroubd.png")
         background_tk_img = ImageTk.PhotoImage(background_img)
         self.title("DOS Example Game")
         self.geometry("1920x1080")
