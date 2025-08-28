@@ -7,7 +7,7 @@ class FlashlightGameWindow(Toplevel):
 
         super().__init__(*args, **kwargs)
 
-        background_img = Image.open("backgroundFlashlightGame.png")
+        background_img = Image.open("Images/backgroundFlashlightGame.png")
         background_tk_img = ImageTk.PhotoImage(background_img)
         self.title("Flashlight Game")
         self.geometry("1920x1080")
@@ -17,12 +17,12 @@ class FlashlightGameWindow(Toplevel):
         self.canvas.create_image(0, 0, anchor="nw", image=background_tk_img)
         self.canvas.image = background_tk_img  # Store a reference to prevent garbage collection
 
-        flashlight_img = ImageTk.PhotoImage(file="flashlight.png")  # Replace with your flashlight image path
+        flashlight_img = ImageTk.PhotoImage(file="Images/flashlight.png")  
 
         # Resize the hidden text image to a smaller size
-        hidden_text_pil = Image.open("imagetext.png")  # Replace with your hidden text image path
-        desired_width = 220  # Replace with the desired width
-        desired_height = 93  # Replace with the desired height
+        hidden_text_pil = Image.open("Images/imagetext.png") 
+        desired_width = 220  
+        desired_height = 93  
         hidden_text_pil = hidden_text_pil.resize((desired_width, desired_height), Image.ANTIALIAS)
         hidden_text_img = ImageTk.PhotoImage(hidden_text_pil)
 
