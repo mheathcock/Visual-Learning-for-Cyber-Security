@@ -13,10 +13,10 @@ app.geometry("1920x1080")
 
 set_appearance_mode("light")
 
-right_arrow = Image.open("arrowR.png")
-left_arrow = Image.open("arrow2.png")
+right_arrow = Image.open("Images/arrowR.png")
+left_arrow = Image.open("Images/arrow2.png")
 
-image = Image.open("background.png")
+image = Image.open("Images/background.png")
 background_image = CTkImage(image, size=(1920, 1080))
 
 current_page_index = -1
