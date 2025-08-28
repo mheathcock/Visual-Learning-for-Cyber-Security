@@ -22,11 +22,11 @@ background_image = CTkImage(image, size=(1920, 1080))
 current_page_index = -1
 
 images = [
-    {"name": "Page 1", "image_paths": ["PhishingComic.png", "PhishingPoster.png"]},
-    {"name": "Page 2", "image_paths": ["ddoscomic.png", "DOS poster.png"]},
-    {"name": "Page 3", "image_paths": ["SoftwareUpdate2.png", "SoftwareUpdate1.png"]},
-    {"name": "Page 4", "image_paths": ["wormVSvirus.png", "Trojan.png", "Trojan2.png"]},
-    {"name": "Page 5", "image_paths": ["VulnerabilityPoster.png", "VulnerabilityComic.png" ]}
+    {"name": "Page 1", "image_paths": ["Images/PhishingComic.png", "Images/PhishingPoster.png"]},
+    {"name": "Page 2", "image_paths": ["Images/ddoscomic.png", "Images/DOS poster.png"]},
+    {"name": "Page 3", "image_paths": ["Images/SoftwareUpdate2.png", "Images/SoftwareUpdate1.png"]},
+    {"name": "Page 4", "image_paths": ["Images/wormVSvirus.png", "Images/Trojan.png", "Images/Trojan2.png"]},
+    {"name": "Page 5", "image_paths": ["Images/VulnerabilityPoster.png", "Images/VulnerabilityComic.png" ]}
 ]
 
 current_image_index = 0
